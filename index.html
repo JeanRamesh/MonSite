@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<!-- head -->
+    <head>
+      <meta charset="UTF-8">
+      <title>Mon Portfolio</title>
+
+<!-- FRONT -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/022cb5b9d7.js" crossorigin="anonymous"></script>
+<!--/FRONT -->
+
+<!-- META -->
+<meta name="description" content="Description site">
+<meta name="keyworks" content="développeur front-end, webdesign, web developpeur, Jean RAMESH">
+
+<!-- taille mobile -->
+<meta class="viewport" content="width=device-width, user-scalable=no,initial-scale=1">
+<!--/META -->
+
+<!-- CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+      <link rel="stylesheet" href="src/css/main.css">
+<!--/CSS -->
+
+    </head>
+<!--/head -->
+
+<!-- CONTENU DU SITE -->
+<body>
+    <!-- header -->
+    <div>
+    <header class="header">
+            <a href="#" class="titre" id="tr"> <i class="fas fa-bars" id="men"></i> Mon portfolio </a>
+            <nav class="header_menu">
+                <a class="home" href="#">Accueil<i class="fas fa-home"></i></a>
+                <a href="#Bio">Bio<i class="fas fa-heart"></i></a>
+                <a href="#Portfolio">Mon parcours<i class="fas fa-laptop-code"></i></a>
+                <a href="#Contact">Contact<i class="fas fa-address-book"></i></a>
+            </nav>
+    </header>
+  </div>
+  <!-- fin header -->
+
+  <!-- bannière -->
+        <div>
+          <div class="ban">
+            <img src="src/img/ap.jpg" alt="bannière du site" class="ban_img">
+              <div class="ban_txt" id="bnvp">
+                <h1 class="title is-1">Bienvenue sur mon portfolio</h1>
+                <button class="button is-link" id="clickm"> Contactez moi </button>
+              </div>
+          </div>
+        </div>
+  <!-- fin bannière -->
+
+  <!-- Modal-->
+    <div class="modal own-modal" id="openm">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Contactez moi</p>
+          <button class="delete" aria-label="close" id="closem"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="footer-contact-form" >
+            <form class="cont" id="fcf">
+              <div class="field">
+                <label class="label">Votre nom</label>
+                <div class="control">
+                  <input id="n" class="input" type="text" placeholder="ex. RAMESH" name="n">
+                </div>
+              </div>
+  
+              <div class="field">
+                <label class="label">Votre prénom</label>
+                <div class="control">
+                  <input id="fn" class="input" type="text" placeholder="ex. Jean" name="fn">
+                </div>
+              </div>
+  
+              <div class="field">
+                <label class="label">Votre mail</label>
+                <div class="control">
+                  <input id="m" class="input" type="text" placeholder="ex. rameshjean13@gmail.com" name="m">
+                </div>
+              </div>
+  
+              <div class="field">
+                <label class="label">Votre message</label>
+                <div class="control">
+                  <textarea id="msg" class="textarea" type="text" placeholder="ex. Nous  accusons réception de votre offre de collaboration et nous vous remercions de l’intérêt que vous portez à la société" name="msg"></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-link" id="evm">Envoyer</button>
+        </footer>
+      </div>
+    </div>
+  <!-- fin Modal -->
+
+  <!-- à propos -->
+    <div class="block">
+      <h2 class="title">À propos</h2>
+      <div class="container about">
+        <h2 class="title heading-site" id="Bio"> Bio</h2>
+        <div class="columns"> 
+              <div class="column about-single-element">
+                <h2 class="subtitle heading-site">Présentation</h2>
+                <div class="dipar">
+                  <p class="sutitre">Profil personnel</p>
+                  <p></p>
+                  <h2 class="textjust">Etant passionné par la filière informatique depuis le collège, j’ai voulu intégrer le baccalauréat professionnel SEN mais la filière n'était pas proposée par le Lycée français de Pondichéry.</h2>
+                  <h2 class="textjust">J'ai été amené donc à passer le baccalauréat professionnel de commerce.</h2>
+                  <h2 class="textjust">Par la suite, grâce à ma passion et ma motivation,</h2>
+                  <h2 class="textjust">j’ai eu la possibilité de me réorienter vers le BTS systèmes numériques option informatique et réseaux, qui m’a permis de découvrir l’univers de la programmation informatique.</h2>
+                </div>
+                <div class="dipar">
+                  <p class="sutitre">Centres d'intérêts</p>
+                  <p>
+                  <h2 class="subtitle heading">。Composition de musique sur FL studio °</h2>
+                  <h2 class="subtitle heading">。Bot-Discord (JavaScript) °</h2>
+                  <h2 class="subtitle heading">。Réparation ordinateur °</h2>
+                  <h2 class="subtitle heading">。Badminton °</h2>
+                  <h2 class="subtitle heading">。Volley ball °</h2>
+                  <h2 class="subtitle heading">。Musculation °</h2>
+                  </p>
+                </div>
+            </div>
+            <div class="column about-single-element">
+              <h2 class="subtitle heading-site">Etudes</h2>
+                <div class="dipar">
+                <p class="sutitre">Informatique</p>
+                <p></p>
+                <h2 class="titre">BTS systèmes numériques option informatique et réseaux</h2>
+                <h2 class="stitre">Lycée Julliot de la Morandière, 2020</h2>
+                <h2 class="stitre">Granville 50400, France</h2>
+                </div>
+
+                <div class="dipar">
+                  <p class="sutitre">Commerce</p>
+                  <p></p>
+                  <h2 class="titre">Baccalauréat professionnel de commerce</h2>
+                  <h2 class="stitre">Lycée Français de Pondichéry, 2018</h2>
+                  <h2 class="stitre">Pondichéry 605001, Inde</h2>
+                </div>
+
+                <div class="dipar">
+                  <p class="sutitre">Langues</p>
+                  <p>
+                    <h2 class="subtitle heading">Anglais B2</h2>
+                    <h2 class="subtitle heading">Espagnol A2</h2>
+                  </p>
+                </div>
+              </div>
+
+          <div class="column about-single-element">
+
+              <h2 class="subtitle heading-site">Expériences professionnelle</h2>
+              <div class="dipar">
+              <p class="sutitre">Informatique</p>
+              <p></p>
+                <h2 class="titre">MSFC Avranches, 05/2019 - 07/2019</h2>
+                <h2 class="stitre"> Dépannage informatique, Réseaux et Télécoms</h2>
+                <p>
+                <h2 class="subtitle heading">Assistante administrateur réseaux</h2>
+                <h2 class="subtitle heading">Réparations ordinateurs</h2>
+                <h2 class="subtitle heading">Conﬁguration et réparation système</h2>
+                </p>
+              </div>
+
+              <div class="dipar">
+                <h2 class="titre">Siara computers, 04/2017 - 07/2017</h2>
+                <h2 class="stitre"> Technicien assistance informatique</h2>
+                <p>
+                <h2 class="subtitle heading">Réparations ordinateurs</h2>
+                <h2 class="subtitle heading">Conﬁguration et réparation système</h2>
+                </p>
+              </div>
+
+              <div class="dispar">
+                <p class="sutitre">Commerce</p>
+                <p></p>
+                <p>
+                <h2 class="subtitle heading">Ventes, animation, gestion</h2>
+                <h2 class="subtitle heading">The Raymond shop</h2>
+                <h2 class="subtitle heading">Pondichéry, Inde</h2>
+                </p>
+                <p>
+                <h2 class="subtitle heading">Ventes</h2>
+                <h2 class="subtitle heading">Casablanca</h2>
+                <h2 class="subtitle heading">Pondichéry, Inde</h2>
+                </p>
+                <p>
+                <h2 class="subtitle heading">Ventes</h2>
+                <h2 class="subtitle heading">Max</h2>
+                <h2 class="subtitle heading">Pondichéry, Inde</h2>
+                </p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin à propos -->
+
+  <!-- portfolio -->
+   <div class="block">
+    <h2 class="title heading-site" id="Portfolio">Mon Portfolio</h2>
+     <div class="container portfolio">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+              <article class="tile is-child notification is-primary">
+                <p class="title">COMPETENCES</p>
+                <p>
+                <h2 class="subtitle heading">HTML, CSS, JAVASCRIPT</h2>
+                <h2 class="subtitle heading">SQL, PHP, UML, JQUERY, NODE.JS, CORDOVA</h2>
+                <h2 class="subtitle heading">LINUX, RESEAUX, C++, QtCreator, QML</h2>
+                <h2 class="subtitle heading">GESTION, CALCUL COMMERCIAUX...</h2>
+              </p>
+              </article>
+              <article class="tile is-child notification is-warning">
+                <p class="title">PROJET</p>
+                <p class="subtitle"> <p class="grr">LaMoRun</p>
+                     <img src="src/img/loca_f.jpg"> 
+                <p>
+                  <h2 class="subtitle heading">。Création d’une application scanner QR code en C++, pour l’association du lycée °</h2>
+                  <p></p>
+                  <p class="grt">Objectif :</p>
+                  <h2 class="subtitle heading">。Faciliter la gestion des enregistrements des coureurs et de leur arrivée et la consultation de la classiﬁcation des coureurs du cross °</h2>
+                  <h2 class="subtitle heading">。Equipe de 5 étudiants °</h2>
+                </p></p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">CONTACT</p>
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="src/img/me.jpg">
+                </figure>
+                <div class="content">
+          <p>jean.petrus.ramesh@gmail.com</p>
+          <p>07 66 13 32 63</p>
+          <p>50300, Saint Senier sous-Avranches</p>
+          <p>France</p>
+              <a href="https://www.linkedin.com/in/jean-ramesh-b04ab21a5/">
+                <p>jean-ramesh-b04ab21a5</p>
+              </a>
+               </div> 
+              </article>
+            </div>
+          </div>
+      </div>
+    </div>
+  <!-- fin portfolio -->
+
+  <!-- footer / contact-->
+    <div class="block">
+      <footer class="footer">
+        <h2 class="subtitle heading-site" id="Contact">Contactez moi</h2>
+        <div class="footer-contact-form" >
+          <form class="cont">
+            <div class="field">
+              <label class="label">Votre nom</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="ex. RAMESH" name="n">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Votre prénom</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="ex. Jean" name="fn">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Votre mail</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="ex. rameshjean13@gmail.com" name="m">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Votre message</label>
+              <div class="control">
+                <textarea class="textarea" type="text" placeholder="ex. Nous  accusons réception de votre offre de collaboration et nous vous remercions de l’intérêt que vous portez à la société" name="msg"></textarea>
+              </div>
+            </div>
+          </form>
+          <button class="button" >Envoyer</button>
+        </div>
+
+        <div class="footer-informations">
+
+          <p>Jean RAMESH</p>
+          <p>jean.petrus.ramesh@gmail.com</p>
+          <p>07 66 13 32 63</p>
+          <p>50300, Saint Senier sous-Avranches</p>
+          <p>France</p>
+
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/jean-ramesh-b04ab21a5/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTLpxPmmbBswlHHCqbHWmwLdJKVXWchTjSNkqpnsNLqQSwtLwpBSTPPLBKWjGpJqXCThLV">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+33-7-66-13-32-63">
+                <i class="fas fa-mobile-alt" id="evn"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="footer-copyright">
+          <p>Copyright (c) 2020 Copyright Holder All Rights Reserved.</p>
+        </div>
+      </footer>
+      <div class="lik">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </div>
+    </div>
+
+  <!-- footer / contact -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
