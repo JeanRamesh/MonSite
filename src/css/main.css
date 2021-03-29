@@ -250,7 +250,7 @@
 }
 /* Responsive */
 
-@media screen and (max-width: 658px) {
+@media screen and (min-width: 600px) {
     #navi {
         display:none;
     }
