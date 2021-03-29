@@ -250,11 +250,11 @@
 }
 /* Responsive */
 
-/*@media screen and (max-width: 658px) {
+@media screen and (max-width: 658px) {
     #clickm {
         display:none;
     }
-}*/
+}
 
 /*@media screen and (max-width:1000px) {
   #bnvp {
