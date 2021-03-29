@@ -251,7 +251,7 @@
 /* Responsive */
 
 @media screen and (max-width: 658px) {
-    #clickm {
+    #navi {
         display:none;
     }
 }
