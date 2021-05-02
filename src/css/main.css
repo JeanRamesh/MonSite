@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* head */
+.MOO {
+    border-radius: 2rem;
+}
 .heading-site {
     text-align: center;
     padding: 0;
